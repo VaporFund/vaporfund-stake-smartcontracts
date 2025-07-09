@@ -1,0 +1,20 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Gas reporter output
+gas-report.txt
+
+# Editor
+.vscode
+.idea
+
+# OS
+.DS_Store
