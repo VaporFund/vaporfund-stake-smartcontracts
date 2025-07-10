@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Smart contracts for VaporFund staking platform",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "yarn": ">=1.22.0"
+  },
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
