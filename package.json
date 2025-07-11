@@ -1,6 +1,6 @@
 {
   "name": "@vaporfund/smartcontracts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Smart contracts for VaporFund staking platform",
   "main": "index.js",
   "engines": {
