@@ -1,20 +1,77 @@
+# Dependencies
 node_modules
+.yarn
+
+# Environment variables
 .env
-coverage
-coverage.json
-typechain
-typechain-types
+.env.local
+.env.production
+.env.*
 
 # Hardhat files
 cache
 artifacts
 
+# TypeChain generated types
+typechain
+typechain-types
+
+# Testing
+coverage
+coverage.json
+.nyc_output
+
 # Gas reporter output
 gas-report.txt
 
-# Editor
+# Deployment artifacts
+deployments/localhost
+deployments/hardhat
+
+# Build files
+dist
+build
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
 .vscode
 .idea
+*.swp
+*.swo
+*~
 
-# OS
+# OS files
 .DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Lock files (keep package-lock.json or yarn.lock in version control)
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+
+# OpenZeppelin
+.openzeppelin/unknown-*.json
+
+# Debugging
+.debug/
+
+# Local development
+local-dev/
+*.local.json
+
+# Contract verification
+flattened/
+
+# Backups
+*.backup
+*.bak
