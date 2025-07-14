@@ -139,6 +139,9 @@ yarn coverage
 
 # Run specific test file
 yarn test test/VaporFundStaking.test.ts
+
+# Run tests with gas reporting
+REPORT_GAS=true yarn test
 ```
 
 ## Gas Optimization
