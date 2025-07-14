@@ -29,7 +29,7 @@ async function main() {
     wethAddress = "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"; // Goerli WETH
   } else {
     // Local or other networks
-    multiSigWallet = deployer.address;
+    multiSigWallet = process.env.LOCAL_MULTISIG_WALLET || "0xcd3B766CCDd6AE721141F452C550Ca635964ce71";
     // Deploy mock WETH for local testing
     console.log("Deploying mock WETH for local testing...");
     const MockWETH = await ethers.getContractFactory("MockERC20");
